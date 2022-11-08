@@ -1,0 +1,26 @@
+{
+  "title": "rkasumi's Ruler Scale",
+  "id": "rkasumi-ruler-scale",
+  "version": "0.1.02",
+  "authors": [
+    {
+      "name": "rkasumi",
+      "url": "https://github.com/rkasumi",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "/scripts/main.js"
+  ],
+  "relationships": {
+      "requires": [
+          {"id": "libWrapper", "type": "module"},
+          {"id": "drag-ruler", "type": "module"}
+      ]
+  },
+  "compatibility": {
+    "minimum": 10,
+    "verified": 10,
+    "maximum": 11
+  }
+}
