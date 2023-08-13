@@ -14,7 +14,6 @@
   ],
   "relationships": {
       "requires": [
-          {"id": "libWrapper", "type": "module"},
           {"id": "drag-ruler", "type": "module"}
       ]
   },
