@@ -3,7 +3,7 @@ Hooks.on("init", () => {
     name: "Ruler Scale",
     scope: "client",
     config: true,
-    default: 200,
+    default: 100,
     type: Number,
   });
 })
